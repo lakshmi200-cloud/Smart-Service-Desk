@@ -150,3 +150,15 @@ git switch development
 git switch main
 git merge development
 ```
+## Testing and Demonstration
+
+The following scenarios are tested:
+
+- Successful user registration and login.
+- Service request creation with valid details.
+- Duplicate Request ID handling.
+- Viewing all saved requests.
+- Searching for an existing request.
+- Resolving an OPEN request.
+- Handling an attempt to resolve an already RESOLVED request.
+- Data persistence after closing and restarting the application.
