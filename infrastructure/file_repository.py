@@ -21,7 +21,13 @@ class FileRepository:
             records = json.loads(raw)
             if not isinstance(records, list):
                 raise PersistenceError("The requests JSON file must contain a list.")
+
+            if not all(isinstance(item, dict) for item in records):
+                raise PersistenceError("Each request record must be a JSON Object.")
+
             return [ServiceRequest.from_dict(item) for item in records]
+
+        
         except (json.JSONDecodeError, OSError, KeyError, TypeError, ValueError) as exc:
             if isinstance(exc, PersistenceError):
                 raise
