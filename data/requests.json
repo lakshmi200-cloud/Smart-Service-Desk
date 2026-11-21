@@ -1,0 +1,38 @@
+[
+    {
+        "request_id": "1",
+        "employee_name": "lakshmi",
+        "issue": "error",
+        "priority": "LOW",
+        "status": "OPEN",
+        "created_at": "2026-11-21T06:54:42.734496+00:00",
+        "resolved_at": null
+    },
+    {
+        "request_id": "2",
+        "employee_name": "kushi",
+        "issue": "laptop bug",
+        "priority": "LOW",
+        "status": "RESOLVED",
+        "created_at": "2026-11-21T07:00:22.992224+00:00",
+        "resolved_at": "2026-11-21T07:47:14.786839+00:00"
+    },
+    {
+        "request_id": "3",
+        "employee_name": "Ashish",
+        "issue": "charging issue",
+        "priority": "HIGH",
+        "status": "RESOLVED",
+        "created_at": "2026-11-21T07:16:18.888382+00:00",
+        "resolved_at": "2026-11-21T07:17:21.563804+00:00"
+    },
+    {
+        "request_id": "4",
+        "employee_name": "Krishna",
+        "issue": "laptop charging issue",
+        "priority": "HIGH",
+        "status": "OPEN",
+        "created_at": "2026-11-21T13:43:06.926496+00:00",
+        "resolved_at": null
+    }
+]

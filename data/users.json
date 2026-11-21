@@ -1,0 +1,17 @@
+[
+    {
+        "username": "lakshmi",
+        "salt": "beb1b44151a061ba49a938f31406203c",
+        "password_hash": "757fb47757ab75325e6cae2628a1833a09d6b8cc8b007a9099447a0371f1f543"
+    },
+    {
+        "username": "kushi",
+        "salt": "dfe463e5acb5e42c6d414b3e8f65aa4d",
+        "password_hash": "dbd8c6256a98a88d8f4526b72f8c5ada2968b097b3e39a6d60d32f3863464e70"
+    },
+    {
+        "username": "Ashish",
+        "salt": "84a01825f18ed8b3a15d5ea32d8367ae",
+        "password_hash": "e6d399174d9590da10937d9f9ea9a6a58907a8855c7c13e534bb18d95625ec6c"
+    }
+]
